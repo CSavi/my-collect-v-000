@@ -11,4 +11,4 @@ def my_collect(collection_array)
   collection
 end   
 
-my_collect(collection_array) do |name|
+my_collect(collection_array) {|i| 
