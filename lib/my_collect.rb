@@ -11,4 +11,3 @@ def my_collect(collection_array)
 end   
 
 my_collect(collection_array)
-end 
