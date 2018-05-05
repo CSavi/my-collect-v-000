@@ -1,14 +1,14 @@
 require 'pry'
 
 
-def my_collect(collection_array)
+def my_collect(collection)
   i = 0 
   collect = []
-  while i < collection_array.length 
-    collect << yield(collection_array[i])
+  while i < collection.length 
+    collect << yield(collection[i])
     i = i + 1
   end   
-  collection
+  collect
 end   
 
 #my_collect(collection_array) {|i| i.split(" ").first}
