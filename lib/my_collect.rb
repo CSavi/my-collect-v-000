@@ -10,5 +10,5 @@ def my_collect(collection_array)
   collection
 end   
 
-puts my_collect(collection_array)
+my_collect(collection_array)
 end 
