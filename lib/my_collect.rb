@@ -10,3 +10,4 @@ def my_collect(collection_array)
   collection
 end   
 
+my_collect(collection_array)
