@@ -1,6 +1,5 @@
 require 'pry'
-students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'] 
-languages = ['ruby', 'javascript', 'python', 'objective-c']
+
 
 def my_collect(collection_array)
   i = 0 
