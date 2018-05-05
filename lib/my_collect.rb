@@ -1,4 +1,5 @@
 require 'pry'
+collection_array = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'] 
 
 def my_collect(collection_array)
   i = 0 
