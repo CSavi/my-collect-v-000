@@ -1,5 +1,5 @@
 require 'pry'
-
+['ruby', 'javascript', 'python', 'objective-c']
 def my_collect(collection_array)
   i = 0 
   collect = []
